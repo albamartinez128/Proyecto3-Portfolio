@@ -1,11 +1,25 @@
-//IMPORTAR LOS ESTILOS GENERALES
+import { animateBars } from "./Components/Header/Header";
+
+// //INYECTAR CADA COMPONENTE
+
 import "./style.css";
+import { printTemplate as Header } from "./Components/Header/Header";
+// import { printTemplate as Footer } from "./components/Footer/Footer";
+import { printTemplate as home } from "./Pages/Home/home";
+import { printTemplate as hero } from "./Components/Hero/Hero";
+import { printTemplate as About } from "./Pages/About/about";
+import { linkPage } from "./utils/linkPage";
 
-//IMPORTAR EL HEADER
-import { header } from "./Components/Header/Header";
-//OBTENER EL ELEMENTO DEL DOM CON EL ID APP
-const app = document.querySelector("#app");
+Header();
+hero();
 
-//INYECTAR CADA COMPONENTE
+// Home();
+// Footer();
 
-app.insertAdjacentHTML("afterbegin", header());
+linkPage("#homelink", home);
+linkPage("#aboutlink", About);
+
+//LISTENNERS
+
+var crearFunction = document.querySelector(".bars_menu");
+crearFunction.addEventListener("click", animateBars);

@@ -1,0 +1,70 @@
+
+.about{
+    background-color: blue;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+
+.titulo_about{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   animation: slide-in 1s ease-in-out;
+}
+.about h1{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.882);
+    text-align: center;
+    margin-top: 50px;
+    text-decoration:underline;
+    font-weight: 200;
+    background-color: rgb(115, 100, 128);
+    letter-spacing: 4px;
+    display: inline;
+    animation: slide-in 1s ease-in-out;
+
+}
+
+
+.about img {
+    width: 300px;
+    height: 200px;
+    border-radius: 40px;
+    transition: all 0.2s ease-in;
+
+}
+
+.about img:hover{
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+}
+
+.texto_about{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content:flex-start;
+    gap: 50px;
+    
+}
+
+.derecha{
+    justify-content: flex-end;
+}
+.derecha img{
+order: 2;
+}
+
+.texto_about h4{
+   
+    margin-top: 60px;
+    font-size: 19px;
+    color: antiquewhite;
+    font-weight: 100;
+   
+}
+
+

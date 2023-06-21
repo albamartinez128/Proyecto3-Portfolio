@@ -1,7 +1,14 @@
-import { header } from "../../Components/Header/Header";
-import { hero } from "../../Components/Hero/Hero";
+import "./home.css";
 
-const renderHome = () => {
-  header();
-  hero();
+const template = () => {
+  return `
+    <section class="home">
+    <h1>HI, I AM ALBA MARTÍNEZ</h1>
+    <img src="./img/ilustracion.avif">
+    </section>
+    `;
+};
+
+export const printTemplate = () => {
+  document.querySelector("main").innerHTML = template();
 };
