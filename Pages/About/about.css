@@ -1,6 +1,5 @@
 
 .about{
-    background-color: blue;
     margin-top: 40px;
     padding-bottom: 70px;
 }
@@ -18,15 +17,23 @@
     text-align: center;
     margin-top: 50px;
     text-decoration:underline;
-    font-weight: 200;
-    background-color: rgb(115, 100, 128);
+    font-weight: 400;
     letter-spacing: 4px;
     display: inline;
     animation: slide-in 1s ease-in-out;
 
 }
 
+ .izquierda{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 40px;
+}
 
+
+.derecha{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 50px;
+}
 .about img {
     width: 300px;
     height: 200px;

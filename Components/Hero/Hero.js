@@ -3,10 +3,15 @@ import "./Hero.css";
 const template = () => {
   return `
 <div class="hero">
-  <div class="hero_imagen">
+  <div class="hero_imagen" data-aos="flip-left"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000" >
   <img src="./img/alba.jpeg" alt="imagen hero">
   </div>
   <div class="hero_texto">
+  <div class="saludo_bienvenida"
+  <h6> HI, MY NAME IS ALBA</h6>
+  </div>
   <div class="texto_bienvenidos">
     <h3 class="span loader">
     <span class="m">W</span>
@@ -36,10 +41,10 @@ const template = () => {
     <span class="m">O</span>
   </h3>
     </div>
-    <h2>ALBA</h2>
-    <h3>MARTINEZ</h3>
-    
-    <div class="iconos_rrss"></div>
+    <div class="iconos_rrss">
+     <img src="./img/linkedin.png">
+     <img src="./img/github.png">
+    </div>
   </div>
 </div>
  `;

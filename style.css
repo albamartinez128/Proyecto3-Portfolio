@@ -12,8 +12,8 @@ text-decoration: none;
 body{
   margin: 0 auto;
   padding: 0;
-  background-color: #486d7a;
-  background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+  background-color: #a89880;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
   display: flex;
   flex-direction: column;
   min-height: 100vh;

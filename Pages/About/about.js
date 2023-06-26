@@ -9,12 +9,11 @@ const template = () => {
     <div class="texto_about izquierda">
     <img src="./img/comunicacion.jpg" class="perfil"/>
     <h4>Me llamo Alba, graduada en Periodismo y en Marketing Digital.<br>
-    fdfsfss<br>fesffs
-    sdfsfsf</h4>
+    Durante mis primeros años de carrera tuve la oportunidad de trabajar en el sector de la comunicación. Fue ahí donde empece a sentir curiosidad por el mundo del desarrollo web.</h4>
     </div>
     <div class="texto_about derecha" >
     <img src="./img/desarrollador.jpg">
-    <h4>gdrgdgdd<br>fwsfssfsd<br>dfdfsd</h4>
+    <h4>Actualmente estoy cursando un Máster de RockTheCode en ThePower Business School. En estos momentos, todo mi enfoque, crecimiento profesional e ilusión está puesto en el sector de la programación</h4>
     </div>
     </section>
     `;

@@ -10,7 +10,7 @@ const header = () => {
                 <span class="line2_bars-menu"></span>
                 <span class="line3_bars-menu"></span>
         </nav>
-          <div class="menu" data-aos-anchor-placement="bottom-bottom" data-aos="fade-up">
+          <div class="menu transicion"  data-aos-anchor-placement="bottom-bottom" data-aos="fade-up">
 
             <div id="navbar">
                   <ul class="list-links">
@@ -45,6 +45,8 @@ export function animateBars() {
   line1_bars.classList.toggle("activeline1_bars-menu");
   line2_bars.classList.toggle("activeline2_bars-menu");
   line3_bars.classList.toggle("activeline3_bars-menu");
-  console.log("hola");
   container_menu.classList.toggle("menu_active");
+  setTimeout(() => {
+    NavBar.classList.toggle("transicion");
+  }, 500);
 }

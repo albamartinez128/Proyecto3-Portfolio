@@ -55,13 +55,18 @@ display: none;
 font-family: Inconsolata, sans-serif;
 font-weight: 800;
 margin-top: 50px;
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+padding: 20px;
+border-radius: 20px;
     
 }
 .menu_active{
     display: flex;
+    transform: translateY(0);
 }
+
 .list-links{
-color: rgb(77, 53, 53);
+color: rgb(56, 5, 5);
 font-size: 23px;
 font-weight: 600;
 display: flex;
@@ -96,7 +101,7 @@ height: 25px;
     display: block;
     width: 100%;
     height: 2px;
-    background-color: blueviolet;
+    background-color: rgb(242, 237, 247);
     margin-top: 6px;
     transform-origin: 0px 100%;
     transform: all 400ms;
@@ -120,6 +125,12 @@ margin-left: -30px;
     transform: rotate(-45deg) translate(-4px, 2px);
 }
 
+.transicion {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
 /* //AQUÍ TENEMOS MEDIDAS PARA ORDENADOR EN ADELANTE */
 @media screen and (min-width: 768px) {
 
@@ -129,6 +140,7 @@ margin-left: -30px;
  gap: 90px;
  justify-content: center;
  align-items: center;
+ color: antiquewhite;
    }
     .menu{
         display: flex;
@@ -141,6 +153,7 @@ margin-left: -30px;
     display: flex;
     flex-direction: row;
     gap: 40px;
+    color: antiquewhite;
    }
 
    a:visited {
