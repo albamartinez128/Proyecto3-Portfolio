@@ -6,13 +6,13 @@ const template = () => {
   <div class="hero_imagen" data-aos="flip-left"
   data-aos-easing="ease-out-cubic"
   data-aos-duration="2000" >
-  <img src="./img/alba.jpeg" alt="imagen hero">
+    <img src="./img/alba.jpeg" alt="imagen hero">
   </div>
   <div class="hero_texto">
-  <div class="saludo_bienvenida"
-  <h6> HI, MY NAME IS ALBA</h6>
-  </div>
-  <div class="texto_bienvenidos">
+   <div class="saludo_bienvenida">
+    <h6>HI, MY NAME IS ALBA</h6></div>
+  
+    <div class="texto_bienvenidos">
     <h3 class="span loader">
     <span class="m">W</span>
     <span class="m">E</span>

@@ -1,7 +1,7 @@
 
 .about{
     margin-top: 40px;
-    padding-bottom: 70px;
+    padding: 20px 20px 70px 20px;
 }
 
 .titulo_about{
@@ -49,15 +49,21 @@
 
 .texto_about{
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
     width: 100%;
     max-width: 1200px;
-    justify-content:flex-start;
-    gap: 50px;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+
     
 }
 
+.texto_about h4{
+    text-align: center;
+}
 .derecha{
     justify-content: flex-end;
 }
@@ -75,3 +81,17 @@ order: 2;
 }
 
 
+@media screen and (min-width:768px) {
+    .texto_about{
+        flex-direction: row;
+        gap: 50px;
+    }
+    
+    .derecha h4{
+        text-align: right;
+    }
+
+    .izquierda h4{
+        text-align: left;
+    }
+}

@@ -134,30 +134,47 @@ margin-left: -30px;
 /* //AQUÍ TENEMOS MEDIDAS PARA ORDENADOR EN ADELANTE */
 @media screen and (min-width: 768px) {
 
-   #navbar{
- display: flex;
- flex-wrap: wrap;
- gap: 90px;
- justify-content: center;
- align-items: center;
- color: antiquewhite;
-   }
-    .menu{
-        display: flex;
-    }
-   .bars_menu{
-    display: none;
-   }
-
-   .list-links{
+    .transicion {
+        opacity: 0;
+        transform: translateY(0%);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+      }
+#navbar{
     display: flex;
-    flex-direction: row;
-    gap: 40px;
-    color: antiquewhite;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    
+    
+}
+
+.menu{
+        padding: 40px;
+        display: flex;
+        opacity: 1;
+        box-shadow: none;
+       
+  
+    }
+    .bars_menu{
+        display: none; 
    }
 
-   a:visited {
-    color: inherit;
-    text-decoration: none;
-}
+    .list-links{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        color: antiquewhite;
+   }
+
+    a:visited {
+        color: inherit;
+        text-decoration: none;
+
+   
+    }
+
+  
 }
