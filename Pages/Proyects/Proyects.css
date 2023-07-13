@@ -20,10 +20,6 @@
   margin-bottom: 50px; /* Espacio entre proyectos */
 }
 
-.proyectos_container{
-  background-color: hwb(0 100% 0% / 0.936);
-  background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
-}
 .contain_proyects{
     
    /* border: 1px solid whitesmoke; */

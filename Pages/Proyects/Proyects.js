@@ -25,7 +25,7 @@ const proyectos = [
   {
     id: 3,
     name: " MY PORTFOLIO",
-    imagen: "img/portfolio1.png",
+    imagen: "img/fotoportfolio.jpg",
     subname: "Proyecto Portfolio",
     text: "Este proyecto será el broche final al primer módulo del curso. En este caso, el objetivo es hacer uso de Vite como herramienta de desarrollo para crear un portfolio. Por otro lado, se hará una simulación de navegación en una SPA (Single Page Application).",
     tecnologia1: "img/html.png",
