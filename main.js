@@ -4,7 +4,6 @@ import { animateBars } from "./Components/Header/Header";
 
 import "./style.css";
 import { printTemplate as Header } from "./Components/Header/Header";
-// import { printTemplate as Footer } from "./components/Footer/Footer";
 import { printTemplate as home } from "./Pages/Home/home";
 import { printTemplate as hero } from "./Components/Hero/Hero";
 import { printTemplate as About } from "./Pages/About/about";
@@ -13,9 +12,6 @@ import { linkPage } from "./utils/linkPage";
 
 Header();
 hero();
-
-// Home();
-// Footer();
 
 linkPage("#homelink", hero);
 linkPage("#aboutlink", About);

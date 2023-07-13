@@ -99,12 +99,10 @@ const template = () => {
       }"><img src="img/iconoweb.png" class="linkproyect"style="width: 25px; height: auto;"></a>
       </div>
       </div>
-      
       `;
     })
     .join("")}
     </div>
-    
     </section>
     `;
 };
