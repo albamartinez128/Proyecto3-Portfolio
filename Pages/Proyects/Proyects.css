@@ -1,18 +1,20 @@
 
-
 .proyectos{
-    /* padding: 10%; */
+    padding: 10%;
 }
 
 .titulo_proyectos{
     display: flex;
-    font-size: 15px;
+    font-size: 18px;
     color: beige;
-    letter-spacing: 8px;
-    font-weight: 100px;
+    letter-spacing: 5px;
     justify-content: center;
     margin-bottom: 70px;
-    margin-top: 70px;   
+    margin-top: 50px;   
+}
+
+.titulo_proyectos h1{
+  font-size: 18px;
 }
 .proyectos_container .contain_proyects {
   margin-bottom: 50px; /* Espacio entre proyectos */

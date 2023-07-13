@@ -36,7 +36,8 @@ font-weight: 600;
 
 .titulo_about h1{
     margin-top: 10px;
-    font-size: 1.5em;
+    margin-bottom: 60px;
+    font-size: 12px;
     color: beige;
     letter-spacing: 8px;
     font-weight: 100px;
@@ -49,10 +50,10 @@ font-weight: 600;
     margin-top: 50px;
     display: inline;
     animation: slide-in 1s ease-in-out;
-    font-size: 1.5em;
+    font-size: 18px;
     color: beige;
-    letter-spacing: 8px;
-    font-weight: 100px;
+    letter-spacing: 5px;
+    font-weight: 200px;
 
 }
 
