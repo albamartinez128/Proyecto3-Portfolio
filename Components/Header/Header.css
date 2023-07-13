@@ -18,7 +18,6 @@ a:visited {
 }
 
 #navbar{
-    /* display: none; */
     align-items: center;
     height: 100%;
     flex-wrap: wrap;
@@ -58,7 +57,7 @@ font-weight: 800;
 margin-top: 50px;
 box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 padding: 20px;
-border-radius: 20px;
+border-radius: 18px;
     
 }
 .menu_active{
@@ -68,7 +67,7 @@ border-radius: 20px;
 
 .list-links{
 color: beige;
-font-size: 25px;
+font-size: 18px;
 font-weight: 600;
 display: flex;
 flex-direction: column;
@@ -132,7 +131,6 @@ margin-left: -30px;
     transition: opacity 0.5s ease, transform 0.5s ease;
   }
 
-/* //AQUÍ TENEMOS MEDIDAS PARA ORDENADOR EN ADELANTE */
 @media screen and (min-width: 768px) {
 
     .transicion {
