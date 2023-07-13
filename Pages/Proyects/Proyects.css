@@ -1,3 +1,5 @@
+
+
 .proyectos{
     /* padding: 10%; */
 }
@@ -87,6 +89,44 @@
     }
   }
   
+
+  .tecnologia1{
+    display: inline;
+    width: 25px;
+    height: 25px;
+    
+  }
+
+  .tecnologia2{
+    display: inline;
+    width: 25px;
+    height: 25px;
+  
+  }
+  .tecnologia3{
+    display: inline;
+    width: 25px;
+    height: 25px;
+  
+  }
+  .tecnologia4{
+    display: inline;
+    width: 25px;
+    height: 25px;
+  
+  }
+
+  .tecnologias img{
+    margin-right: 10px;
+  }
+
+
+  
+  .linkproyect{
+    display: block;
+    margin-top: 10px;
+   
+  }
 
 
 @media screen and (min-width:768px) {

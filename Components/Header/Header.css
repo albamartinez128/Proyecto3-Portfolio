@@ -8,6 +8,7 @@ header{
    
 }
 
+
 .idioma{
     display: none;
 }
@@ -27,7 +28,7 @@ a:visited {
     color: white;
     font-family: Inconsolata, sans-serif;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
@@ -66,8 +67,8 @@ border-radius: 20px;
 }
 
 .list-links{
-color: rgb(56, 5, 5);
-font-size: 23px;
+color: beige;
+font-size: 25px;
 font-weight: 600;
 display: flex;
 flex-direction: column;
@@ -151,10 +152,10 @@ margin-left: -30px;
 }
 
 .menu{
-        padding: 40px;
+        padding: 20px;
         display: flex;
         opacity: 1;
-        box-shadow: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
        
   
     }
@@ -165,8 +166,10 @@ margin-left: -30px;
     .list-links{
         display: flex;
         flex-direction: row;
-        gap: 40px;
-        color: antiquewhite;
+        gap: 80px;
+        color: beige;
+       
+        
    }
 
     a:visited {

@@ -5,10 +5,6 @@ list-style: none;
 text-decoration: none;
 }
 
-
-
-/* AQUÍ SERIA NECESARIO PONER LAS VARIABLES CON LOS COLORES POR EJEMPLO. */
-
 body{
   margin: 0 auto;
   padding: 0;
@@ -22,6 +18,10 @@ body{
 }
 
 a:visited{
-  color: antiquewhite;
-  text-decoration: none;
+color:inherit;
+text-decoration: none;
+}
+
+a{
+  color: beige;
 }
