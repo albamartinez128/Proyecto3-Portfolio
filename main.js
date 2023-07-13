@@ -17,7 +17,7 @@ hero();
 // Home();
 // Footer();
 
-linkPage("#homelink", home);
+linkPage("#homelink", hero);
 linkPage("#aboutlink", About);
 linkPage("#proyectlink", Proyects);
 

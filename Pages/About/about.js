@@ -6,6 +6,9 @@ const template = () => {
     <div class="titulo_about">
     <h1>UN POCO SOBRE MÍ</h1>
     </div>
+    <button class="button_cv">
+    <a href="https://drive.google.com/file/d/1fZe13n6dMjgeNtlLgesg6r8WSCwavDYU/view?usp=drive_link">My Curriculum Vitae</a>
+    </button>
     <div class="texto_about izquierda">
     <img src="./img/comunicacion.jpg" class="perfil"/>
     <h4>Me llamo Alba, graduada en Periodismo y en Marketing Digital.<br>
@@ -13,7 +16,7 @@ const template = () => {
     </div>
     <div class="texto_about derecha" >
     <img src="./img/desarrollador.jpg">
-    <h4>Actualmente estoy cursando un Máster de RockTheCode en ThePower Business School. En estos momentos, todo mi enfoque, crecimiento profesional e ilusión está puesto en el sector de la programación</h4>
+    <h4>Actualmente estoy cursando un Máster de RockTheCode en ThePower Business School. En estos momentos, todo mi enfoque, crecimiento profesional e ilusión está puesto en el sector de la programación.</h4>
     </div>
     </section>
     `;

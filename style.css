@@ -20,3 +20,8 @@ body{
   overflow-x: hidden;
  
 }
+
+a:visited{
+  color: antiquewhite;
+  text-decoration: none;
+}

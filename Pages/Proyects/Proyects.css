@@ -1,35 +1,194 @@
 .proyectos{
-    padding: 10px;
+    /* padding: 10%; */
 }
 
 .titulo_proyectos{
     display: flex;
+    font-size: 15px;
+    color: beige;
+    letter-spacing: 8px;
+    font-weight: 100px;
     justify-content: center;
-    margin-bottom: 90px;
-    margin-top: 90px;
+    margin-bottom: 70px;
+    margin-top: 70px;   
+}
+.proyectos_container .contain_proyects {
+  margin-bottom: 50px; /* Espacio entre proyectos */
 }
 
+.proyectos_container{
+  background-color: hwb(0 100% 0% / 0.936);
+  background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
+}
 .contain_proyects{
-
-   border: 3px solid whitesmoke;
-   box-shadow: 0 0 5px 5px black;
-   
+    
+   /* border: 1px solid whitesmoke; */
+   box-shadow: rgba(30, 30, 56, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   height: auto;
+   /* background-color: beige; */
+   transition: all 1s ease-in;
+   margin-bottom: 300px;
 }
+
+.contain_proyects:hover{
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transform: translateY(-10px);
+    transition: all 1s ease-in;
+    
+}
+
 
 .contain_proyects_text{
     padding: 20px;
 }
 
+.proyect_imagen{
+    overflow: hidden;
+}
 .proyect_imagen img{
     width: 100%;
-    height: 300px;
     object-fit: cover;
+    object-position: top center;
+    height: 100%;
 }
+.scale-up-ver-top {
+	-webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+  
+
+ @-webkit-keyframes scale-up-ver-top {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+  }
+  @keyframes scale-up-ver-top {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+  }
+  
+
 
 @media screen and (min-width:768px) {
+
+    .proyectos{
+        padding: 2px;
+    }
+
+    .titulo_proyectos{
+        margin-top: 10px;
+    }
+    .proyectos_container{
+        background-color: hwb(0 100% 0% / 0.936);
+        background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
+        width: 60%;
+        padding: 50px;
+        margin: 0 auto;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     
+}
+      .slide-in-fwd-center {
+	-webkit-animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        
+    }
+
+
+@-webkit-keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
     .contain_proyects{
-        width: 50%;
         margin: 0 auto;
         display: flex;
+        margin-bottom: 40px;
     }
+    .proyect_imagen{
+    width: 50%;
+    flex: 1;
+    }
+    .contain_proyects_text{
+        flex: 1;
+    }
+
+    .rotate-scale-up {
+        -webkit-animation: rotate-scale-up 0.65s linear both;
+                animation: rotate-scale-up 0.65s linear both;
+    }
+
+
+ @-webkit-keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+
+  .proyectos_container .contain_proyects {
+    margin-bottom: 30px; /* Espacio entre proyectos */
+  }
+ 
 }

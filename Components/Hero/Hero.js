@@ -3,7 +3,7 @@ import "./Hero.css";
 const template = () => {
   return `
 <div class="hero">
-  <div class="hero_imagen" data-aos="flip-left"
+  <div class="hero_imagen  rotate-scale-up" data-aos="flip-left"
   data-aos-easing="ease-out-cubic"
   data-aos-duration="2000" >
     <img src="./img/alba.jpeg" alt="imagen hero">
@@ -42,8 +42,8 @@ const template = () => {
   </h3>
     </div>
     <div class="iconos_rrss">
-     <img src="./img/linkedin.png">
-     <img src="./img/github.png">
+     <a href="https://www.linkedin.com/in/albamartinezgut/"><img src="./img/linkedin.png"></a>
+     <a href="https://github.com/albamartinez128"><img src="./img/github.png"></a>
     </div>
   </div>
 </div>
