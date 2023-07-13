@@ -69,14 +69,15 @@ const template = () => {
     <h1>MIS PROYECTOS</h1>
     </div>
     <div class="proyectos_container slide-in-fwd-center">
-  ${proyectos.map((proyecto) => {
-    const tecnologias = [
-      proyecto.tecnologia1,
-      proyecto.tecnologia2,
-      proyecto.tecnologia3,
-      proyecto.tecnologia4,
-    ].filter(Boolean);
-    return `
+  ${proyectos
+    .map((proyecto) => {
+      const tecnologias = [
+        proyecto.tecnologia1,
+        proyecto.tecnologia2,
+        proyecto.tecnologia3,
+        proyecto.tecnologia4,
+      ].filter(Boolean);
+      return `
     <div class="contain_proyects scale-up-ver-top">
     <div class="proyect_imagen">
     <img src="${proyecto.imagen}" class="perfil"/>
@@ -97,12 +98,11 @@ const template = () => {
         proyecto.linkproyect
       }"><img src="img/iconoweb.png" class="linkproyect"style="width: 25px; height: auto;"></a>
       </div>
-    
-      
       </div>
       
       `;
-  })}
+    })
+    .join("")}
     </div>
     
     </section>
