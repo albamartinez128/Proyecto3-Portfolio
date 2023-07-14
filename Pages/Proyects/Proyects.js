@@ -15,7 +15,7 @@ const proyectos = [
     name: "COFFEE SHOP",
     imagen: "img/webcoffee.png",
     subname: "Proyecto DOM",
-    text: "Mediante este proyecto, nuestro objetivo era comenzar a poner en práctica los conocimientos adquiridos sobre filtros, uso de vite y componentes. En este caso, se ha creado una página web responsive de Cafés con una gran variedad.",
+    text: "Mediante este proyecto, el objetivo era comenzar a poner en práctica los conocimientos adquiridos sobre filtros, uso de vite y componentes. En este caso, se ha creado una página web responsive de cafés con una gran variedad de los mismos.",
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
     tecnologia3: "img/js.png",
@@ -35,10 +35,10 @@ const proyectos = [
   },
   {
     id: 4,
-    name: "PRÁCTICA SUPERHEROES",
+    name: "Práctica Superheroes",
     imagen: "img/superheroes.png",
     subname: "Práctica HTML-CSS",
-    text: "Mediante esta práctica, se han podido ampliar conocimientos sobre la maquetación de una página web. Se han hecho uso de nuevas herramientas e interiorizado nuevas prácticas de diseño de una lading page.",
+    text: "Mediante esta práctica, se han podido ampliar conocimientos sobre la maquetación de una página web. Se han hecho uso de nuevas herramientas e interiorizado nuevas prácticas de diseño de una landing page.",
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
 
