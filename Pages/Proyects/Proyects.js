@@ -4,7 +4,7 @@ const proyectos = [
     name: "WEB APPLE",
     imagen: "img/webapple.png",
     subname: "Landing Page Responsive",
-    text: "Con este proyecto, hemos puesto en practica los conocimientos básicos de HTML y CSS aprendidos durante los primeros meses del máster. Mi objetivo fue conseguir familiarizarme con los conceptos de maquetación y conocer un poco más la variedad de etiquetas.",
+    text: "Con este proyecto, se ha puesto en practica los conocimientos básicos de HTML y CSS aprendidos durante las primeras semanas del curso. Mi objetivo fue conseguir familiarizarme con los conceptos de maquetación y conocer un poco más la variedad de etiquetas y propiedades.",
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
     linkproyect: "https://proyecto1-html-css.vercel.app/",
