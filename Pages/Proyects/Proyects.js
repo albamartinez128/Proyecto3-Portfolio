@@ -80,7 +80,7 @@ const template = () => {
       return `
     <div class="contain_proyects scale-up-ver-top">
     <div class="proyect_imagen">
-    <img src="${proyecto.imagen}" class="perfil"/>
+    <img src="${proyecto.imagen}" loading="lazy" class="perfil"/>
     </div>
       <div class="contain_proyects_text">
       <h3> ${proyecto.name}</h3>
