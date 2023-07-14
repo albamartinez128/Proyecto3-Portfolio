@@ -8,6 +8,9 @@ header{
    
 }
 
+.hero_imagen {
+    margin-top: 50px;
+}
 
 .idioma{
     display: none;
@@ -33,6 +36,7 @@ a:visited {
 
 .bars_menu {
     display: block;
+    margin-top: 8px;
 }
 
 .bars_menu span{
@@ -178,4 +182,10 @@ margin-left: -30px;
     }
 
   
-}
+}@media only screen and (min-width: 820px) and (max-width: 1180px) {
+
+  header{
+    margin-top: 30px;
+  }
+  }
+  

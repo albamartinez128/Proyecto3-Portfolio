@@ -19,7 +19,7 @@
 .hero_imagen img{
     width: 200px;
     height: 200px;
-    margin-top: 10px;
+    margin-top: 5px;
    border-radius: 10px;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
@@ -198,8 +198,8 @@ margin-top: 60px;
       margin-top:-40px;
     }
     .hero_imagen img {
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         margin-left:30px ;  
         margin-top: 0;
     }
@@ -221,9 +221,23 @@ margin-top: 60px;
     }
     .saludo_bienvenida h6{
       color:#390218;
-      padding: 4px;
-      font-size: 20px;
+      padding: 8px;
+      font-size: 22px;
    
     }
    
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+
+  .hero{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+  .hero_imagen img {
+    width: 300px;
+    height: 300px;
+    margin-left:30px ;  
+    margin-top: 0;
+}
 }
