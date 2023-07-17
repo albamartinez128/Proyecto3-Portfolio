@@ -4,19 +4,19 @@ const template = () => {
   return `
     <section class="about">
     <div class="titulo_about">
-    <h1>UN POCO SOBRE MÍ</h1>
+    <h1>ABOUT ME</h1>
     </div>
     <button class="button_cv">
     <a href="https://drive.google.com/file/d/1fZe13n6dMjgeNtlLgesg6r8WSCwavDYU/view?usp=sharing">My Curriculum Vitae</a>
     </button>
     <div class="texto_about izquierda">
     <img src="./img/comunicacion.jpg" class="perfil"/>
-    <h4>Me llamo Alba, graduada en Periodismo y en Marketing Digital.<br>
-    Durante mis primeros años de carrera tuve la oportunidad de trabajar en el sector de la comunicación. Fue ahí donde empece a sentir curiosidad por el mundo del desarrollo web.</h4>
+    <h4> My name is Alba, graduated in Journalism and Digital Marketing.<br>
+    During my first years of my degree I had the opportunity to work in the communication sector. It was there that I began to be curious about the world of web development.</h4>
     </div>
     <div class="texto_about derecha" >
     <img src="./img/desarrollador.jpg">
-    <h4>Actualmente estoy cursando un Máster de RockTheCode en ThePower Business School. En estos momentos, todo mi enfoque, crecimiento profesional e ilusión está puesto en el sector de la programación.</h4>
+    <h4>I am currently studying a RockTheCode Master at ThePower Business School. Right now, all my focus, professional growth and enthusiasm is placed on the programming sector.</h4>
     </div>
     </section>
     `;

@@ -4,7 +4,7 @@ const proyectos = [
     name: "WEB APPLE",
     imagen: "img/webapple.png",
     subname: "Landing Page Responsive",
-    text: "Con este proyecto, se ha puesto en practica los conocimientos básicos de HTML y CSS aprendidos durante las primeras semanas del curso. Mi objetivo fue conseguir familiarizarme con los conceptos de maquetación y conocer un poco más la variedad de etiquetas y propiedades.",
+    text: "With this project, the basic knowledge of HTML and CSS learned during the first weeks of the course has been put into practice. My goal was to get familiar with layout concepts and learn a little more about the variety of tags and properties.",
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
     linkproyect: "https://proyecto1-html-css.vercel.app/",
@@ -15,7 +15,7 @@ const proyectos = [
     name: "COFFEE SHOP",
     imagen: "img/webcoffee.png",
     subname: "Proyecto DOM",
-    text: "Mediante este proyecto, el objetivo era comenzar a poner en práctica los conocimientos adquiridos sobre filtros, uso de vite y componentes. En este caso, se ha creado una página web responsive de cafés con una gran variedad de los mismos.",
+    text: "Through this project, the objective was to begin to put into practice the knowledge acquired about filters, the use of vite and components. In this case, a responsive coffee website has been created with a wide variety of them.",
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
     tecnologia3: "img/js.png",
@@ -27,7 +27,7 @@ const proyectos = [
     name: " MY PORTFOLIO",
     imagen: "img/fotoportfolio.jpg",
     subname: "Proyecto Portfolio",
-    text: "Este proyecto será el broche final al primer módulo del curso. En este caso, el objetivo es hacer uso de Vite como herramienta de desarrollo para crear un portfolio. Por otro lado, se hará una simulación de navegación en una SPA (Single Page Application).",
+    text: "This project will be the finishing touch to the first module of the course. In this case, the objective is to use Vite as a development tool to create a portfolio. On the other hand, a navigation simulation will be done in a SPA (Single Page Application).",
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
     tecnologia3: "img/js.png",
@@ -35,10 +35,10 @@ const proyectos = [
   },
   {
     id: 4,
-    name: "Práctica Superheroes",
+    name: "Practice Superheros",
     imagen: "img/superheroes.png",
     subname: "Práctica HTML-CSS",
-    text: "Mediante esta práctica, se han podido ampliar conocimientos sobre la maquetación de una página web. Se han hecho uso de nuevas herramientas e interiorizado nuevas prácticas de diseño de una landing page.",
+    text: "Through this practice, they have been able to expand their knowledge about the layout of a web page. They have made use of new tools and internalized new landing page design practices.",
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
 
@@ -47,10 +47,10 @@ const proyectos = [
   },
   {
     id: 5,
-    name: "Práctica Web Tiempo ",
+    name: "Weather website ",
     imagen: "img/tiempo.jpg",
     subname: "Proyecto React",
-    text: "Con este proyecto comenzamos el bloque de React del curso. La página web del tiempo utiliza componentes de React para mostrar una interfaz intuitiva y fácil de usar. Al ingresar a la página, los usuarios pueden buscar una ubicación específica para obtener información precisa sobre el clima en tiempo real. La búsqueda se puede realizar ingresando el nombre de la ciudad, el código postal o incluso las coordenadas geográficas.",
+    text: "With this project we start off the React block of the course. The weather web page uses React components to display an intuitive and easy-to-use interface. Upon entering the page, users can search for a specific location to get accurate information about the weather in real time. The search can be done by entering the name of the city, the postal code or even the geographic coordinates.",
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
     tecnologia3: "img/js.png",
@@ -66,7 +66,7 @@ const template = () => {
   return `
   <section class="proyectos">
     <div class="titulo_proyectos">
-    <h1>MIS PROYECTOS</h1>
+    <h1>MY PROJECTS</h1>
     </div>
     <div class="proyectos_container slide-in-fwd-center">
   ${proyectos

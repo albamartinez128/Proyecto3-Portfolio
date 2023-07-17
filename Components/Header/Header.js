@@ -16,7 +16,7 @@ const header = () => {
                   <ul class="list-links">
                       <li> <a id="homelink" href="#homelink">HOME</a></li>
                       <li><a id="aboutlink" href="#aboutlink">ABOUT ME</a></li>
-                      <li> <a id="proyectlink" href="#proyectlink">PROYECTS</a></li>
+                      <li> <a id="proyectlink" href="#proyectlink">PROJECTS</a></li>
                   </ul>
 
                   <div class="idioma">
