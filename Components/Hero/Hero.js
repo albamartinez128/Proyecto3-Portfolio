@@ -42,7 +42,7 @@ const template = () => {
     <span class="m">O</span>
   </h3>
     </div>
-    <div class="iconos_rrss">
+    <div class="iconos_rrss  ">
      <a href="https://www.linkedin.com/in/albamartinezgut/"><img src="./img/linkedin.png"></a>
      <a href="https://github.com/albamartinez128"><img src="./img/github.png"></a>
     </div>
