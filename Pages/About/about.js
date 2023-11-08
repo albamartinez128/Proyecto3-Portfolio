@@ -7,7 +7,7 @@ const template = () => {
     <h1>ABOUT ME</h1>
     </div>
     <button class="button_cv">
-    <a href="https://drive.google.com/file/d/1fZe13n6dMjgeNtlLgesg6r8WSCwavDYU/view?usp=sharing">My Curriculum Vitae</a>
+    <a href="https://drive.google.com/file/d/1dlXTJP8gLr-lMwcRyqt7Oe8j2XFRRQrD/view?usp=drive_link">My Curriculum Vitae</a>
     </button>
     <div class="texto_about izquierda">
     <img src="./img/comunicacion.jpg" class="perfil"/>

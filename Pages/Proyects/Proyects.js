@@ -24,7 +24,7 @@ const proyectos = [
 
   {
     id: 3,
-    name: " MY PORTFOLIO",
+    name: " MY PORTFOLIO - Design",
     imagen: "img/fotoportfolio.jpg",
     subname: "Project Portfolio",
     text: "This project will be the finishing touch to the first module of the course. In this case, the objective is to use Vite as a development tool to create a portfolio. On the other hand, a navigation simulation will be done in a SPA (Single Page Application).",
@@ -33,30 +33,27 @@ const proyectos = [
     tecnologia3: "img/js.png",
     linkproyect: "http://github.com/",
   },
-  {
-    id: 4,
-    name: "Practice Superheros",
-    imagen: "img/superheroes.png",
-    subname: "Practice HTML-CSS",
-    text: "Through this practice, they have been able to expand their knowledge about the layout of a web page. They have made use of new tools and internalized new landing page design practices.",
-    tecnologia1: "img/html.png",
-    tecnologia2: "img/css.png",
+  // {
+  //   id: 4,
+  //   name: "Practice Superheros",
+  //   imagen: "img/superheroes.png",
+  //   subname: "Practice HTML-CSS",
+  //   text: "Through this practice, they have been able to expand their knowledge about the layout of a web page. They have made use of new tools and internalized new landing page design practices.",
+  //   tecnologia1: "img/html.png",
+  //   tecnologia2: "img/css.png",
 
-    linkproyect:
-      "https://github.com/albamartinez128/Practica_HTML-CSS-SuperHeroes",
-  },
+  //   linkproyect:
+  //     "https://github.com/albamartinez128/Practica_HTML-CSS-SuperHeroes",
+  // },
   {
     id: 5,
-    name: "Weather website ",
-    imagen: "img/tiempo.jpg",
-    subname: "Proyect React",
-    text: "With this project we start off the React block of the course. The weather web page uses React components to display an intuitive and easy-to-use interface. Upon entering the page, users can search for a specific location to get accurate information about the weather in real time. The search can be done by entering the name of the city, the postal code or even the geographic coordinates.",
+    name: "Olivia Design",
+    imagen: "img/olivia.jpg",
+    subname: "Práctica Landing Page Responsive",
+    text: "With this project, the basic knowledge of HTML and CSS learned during the first weeks of the course has been put into practice.",
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
-    tecnologia3: "img/js.png",
-    tecnologia4: "img/react.png",
-    linkproyect:
-      "https://www.joanmira.com/es/blog/tutorial-build-a-weather-app-with-react/",
+    linkproyect: "https://jade-bienenstitch-a0d20f.netlify.app",
   },
 ];
 
