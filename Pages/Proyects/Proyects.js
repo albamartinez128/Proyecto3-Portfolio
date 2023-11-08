@@ -13,7 +13,7 @@ const proyectos = [
   {
     id: 2,
     name: "COFFEE SHOP",
-    imagen: "img/webcoffee.png",
+    imagen: "img/coffee1.jpg",
     subname: "Project DOM",
     text: "Through this project, the objective was to begin to put into practice the knowledge acquired about filters, the use of vite and components. In this case, a responsive coffee website has been created with a wide variety of them.",
     tecnologia1: "img/html.png",
@@ -33,24 +33,12 @@ const proyectos = [
     tecnologia3: "img/js.png",
     linkproyect: "http://github.com/",
   },
-  // {
-  //   id: 4,
-  //   name: "Practice Superheros",
-  //   imagen: "img/superheroes.png",
-  //   subname: "Practice HTML-CSS",
-  //   text: "Through this practice, they have been able to expand their knowledge about the layout of a web page. They have made use of new tools and internalized new landing page design practices.",
-  //   tecnologia1: "img/html.png",
-  //   tecnologia2: "img/css.png",
-
-  //   linkproyect:
-  //     "https://github.com/albamartinez128/Practica_HTML-CSS-SuperHeroes",
-  // },
   {
     id: 5,
-    name: "Olivia Design",
+    name: "OLIVIA DESIGN",
     imagen: "img/olivia.jpg",
     subname: "Práctica Landing Page Responsive",
-    text: "With this project, the basic knowledge of HTML and CSS learned during the first weeks of the course has been put into practice.",
+    text: "The main objective of this project is to make a landing page. I implemented everything I learned in the HTML - CSS.",
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
     linkproyect: "https://jade-bienenstitch-a0d20f.netlify.app",
