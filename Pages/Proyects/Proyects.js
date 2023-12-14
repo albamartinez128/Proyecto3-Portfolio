@@ -46,9 +46,9 @@ const proyectos = [
   {
     id: 5,
     name: "ELECTRONIC SHOP",
-    imagen: "img/shop.jpg",
+    imagen: "img/shop1.jpg",
     subname: "Práctica JavaScript DOM",
-    text: "The main objective of this project is to use a JavaScript DOM.",
+    text: "The main objective of this project was to put into practice the knowledge acquired about filters, the use of vite and components.",
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
     tecnologia3: "img/js.png",
