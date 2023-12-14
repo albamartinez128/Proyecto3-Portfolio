@@ -34,7 +34,7 @@ const proyectos = [
     linkproyect: "http://github.com/",
   },
   {
-    id: 5,
+    id: 4,
     name: "OLIVIA DESIGN",
     imagen: "img/olivia.jpg",
     subname: "Práctica Landing Page Responsive",
@@ -42,6 +42,18 @@ const proyectos = [
     tecnologia1: "img/html.png",
     tecnologia2: "img/css.png",
     linkproyect: "https://jade-bienenstitch-a0d20f.netlify.app",
+  },
+  {
+    id: 5,
+    name: "ELECTRONIC SHOP",
+    imagen: "img/shop.jpg",
+    subname: "Práctica JavaScript DOM",
+    text: "The main objective of this project is to use a JavaScript DOM.",
+    tecnologia1: "img/html.png",
+    tecnologia2: "img/css.png",
+    tecnologia3: "img/js.png",
+    linkproyect:
+      "https://657ab1a5a8f4d86c880a902a--resplendent-otter-b43ff4.netlify.app/",
   },
 ];
 
